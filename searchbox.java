@@ -29,7 +29,7 @@ function findString (str) {
   }
  }
  else if (navigator.appName=="Opera") {
-  alert ("Sorry but Oprea broswers are currently not supported :(. Fell free to install ")
+  alert ("Sorry but Oprea broswers are currently not supported :(. Fell free to install Chrome ")
   return;
  }
  if (!strFound) alert ("This project is not marked NFE")
