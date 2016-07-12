@@ -14,24 +14,15 @@ function findString (str) {
   }
  }
  else if (navigator.appName.indexOf("Microsoft")!=-1) {
-
-  // EXPLORER-SPECIFIC CODE
-
-  if (TRange!=null) {
-   TRange.collapse(false);
-   strFound=TRange.findText(str);
-   if (strFound) TRange.select();
-  }
-  if (TRange==null || strFound==0) {
-   TRange=self.document.body.createTextRange();
-   strFound=TRange.findText(str);
-   if (strFound) TRange.select();
-  }
+  alert ("Sorry but Internet Exploer broswers are currently not supported :(. Fell free to install Chrome, to use this piece of softwere ")
+  return;
  }
+
  else if (navigator.appName=="Opera") {
   alert ("Sorry but Oprea broswers are currently not supported :(. Fell free to install Chrome ")
   return;
  }
+ 
  if (!strFound) alert ("This project is not marked NFE")
  return;
 }
