@@ -23,6 +23,11 @@ function findString (str) {
   return;
  }
  
+  else if (navigator.appName=="Safari") {
+  alert ("Sorry but Oprea broswers are currently not supported :(. Fell free to install Chrome ")
+  return;
+ }
+ 
  if (!strFound) alert ("This project is not marked NFE")
  return;
 }
