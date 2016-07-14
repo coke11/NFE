@@ -1,4 +1,4 @@
-var TRange = null;
+var TRange = null
 
 function findString (str) {
  if (parseInt(navigator.appVersion)<4) return;
